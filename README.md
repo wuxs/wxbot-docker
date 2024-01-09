@@ -30,7 +30,7 @@ docker run -d --rm -p 80:80 -p 8080:8080 --name wxbot-docker wuxs/wxbot:latest
 感谢下列项目,记得给大佬们点🌟  
 https://github.com/ttttupup/wxhelper  
 https://github.com/furacas/DllInjector  
-https://github.com/tom-snow/wechat-windows-versions
-https://github.com/hxrbunny/wxhelper-docker
-https://github.com/thinker007/wxhelper-docker
-https://github.com/jwping/wxbot
+https://github.com/tom-snow/wechat-windows-versions 
+https://github.com/hxrbunny/wxhelper-docker  
+https://github.com/thinker007/wxhelper-docker  
+https://github.com/jwping/wxbot 
