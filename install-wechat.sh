@@ -5,7 +5,7 @@ function install() {
     do
         xdotool search '微信安装向导'
         NOTFOUND=$?
-        echo $NOTFOUND
+        echo "微信安装向导: $NOTFOUND"
         if [ "$NOTFOUND" == "0" ]; then
             sleep 80
             xdotool key Tab
