@@ -19,9 +19,9 @@ RUN bash -c 'nohup /entrypoint.sh 2>&1 &' && \
      rm -rf install-wechat.sh
 
 # 可选，优化内存占用，暂未发现对稳定性有影响
-RUN cd /home/app/.wine/drive_c/users/app/AppData/Roaming/Tencent/WeChat/XPlugin/Plugins/ && \
-    rm -r RadiumWMPF ThumbPlayer UpdateNotify WeChatOCR WeChatUpdate WeChatUtility  && \
-    touch RadiumWMPF ThumbPlayer UpdateNotify WeChatOCR WeChatUpdate WeChatUtility  && \
-    chmod 444 RadiumWMPF ThumbPlayer UpdateNotify WeChatOCR WeChatUpdate WeChatUtility
+#RUN cd /home/app/.wine/drive_c/users/app/AppData/Roaming/Tencent/WeChat/XPlugin/Plugins/ && \
+#    rm -r RadiumWMPF ThumbPlayer UpdateNotify WeChatOCR WeChatUpdate WeChatUtility  && \
+#    touch RadiumWMPF ThumbPlayer UpdateNotify WeChatOCR WeChatUpdate WeChatUtility  && \
+#    chmod 444 RadiumWMPF ThumbPlayer UpdateNotify WeChatOCR WeChatUpdate WeChatUtility
 
 CMD ["/cmd.sh"]
